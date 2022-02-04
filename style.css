@@ -1,0 +1,121 @@
+#logo {
+    background-image: url("images/nordic1.jpeg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-right: 0;
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url('images/nordic2.jpeg');
+    }
+    25% {
+        background-image: url('images/nordic3.jpeg');
+    }
+    50% {
+        background-image: url('images/nordic4.jpeg');
+    }
+    75% {
+        background-image: url('images/nordic5.jpeg');
+    }
+    100% {
+        background-image: url('images/nordic1.jpeg');
+    }
+}
+
+#logo img {
+    display: inline-block;
+    height: 90%;
+    margin-top: 5px;
+}
+
+#form {
+    background-color:  rgb(238, 238, 238);
+    height: 100vh;
+    padding-left: 0;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 14pt;
+}
+
+label {
+    margin: 5px 0px;
+}
+
+#header-message {
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+#header-message h1{
+    font-size: 16pt;
+    margin-left: 5vh;
+}
+
+#signup{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0 30px 5vh;
+    box-shadow: 0px 10px 18px #888888;
+}
+
+form p {
+    margin-left: 5vh;
+    margin-top: 15px;
+}
+
+#icon {
+    background-color: rgba(0,0,0,0.75);
+    height: 24vh;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+input[type="submit"] {
+    background-color:rgb(49, 124, 65);
+    border: 2px solid rgb(16, 75, 29);
+    font-size: 12pt;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-top: 40px;
+    transition: all .2s ease-in-out; 
+}
+    
+
+.container input {
+    border: 2px solid rgb(194, 194, 194);
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(29, 95, 79);
+    transform: scale(1.05);
+}
+
+a {
+    color:rgb(54, 121, 69);
+}
+
+a:hover {
+    color:rgb(33, 90, 45);
+}
+
+#cname {
+    font-family: 'Norse';
+    font-size: 18vh;
+    color: white;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
